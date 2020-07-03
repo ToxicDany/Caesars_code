@@ -36,9 +36,7 @@ ABC[24] = 'y';
 ABC[25] = 'z'; 
 
 //Mesage for encryption
-string message;
-cout << "Compeate message: "; 
-cin >> message;
+string message = "gdkkn vnqkc";
 
 //Libraries to work with txt files
 ofstream myfile;
@@ -53,7 +51,7 @@ myfile.close();
 
 for(int i=0; i<message.length(); i++)
 {
-    for (int c = 0; c<51; c++)
+    for (int c = 0; c<26; c++)
     { 
         if(message[i] == ABC[c] && message[i] != ABC[0])
         {
