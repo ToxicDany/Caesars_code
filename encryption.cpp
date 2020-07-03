@@ -49,7 +49,7 @@ myfile.close();
 //Encryption
 for(int i=0; i<message.length(); i++)
 {
-    for (int c = 0; c<51; c++)
+    for (int c = 0; c<26; c++)
     { 
         if(message[i] == ABC[c] && message[i] != ABC[0])
         {
