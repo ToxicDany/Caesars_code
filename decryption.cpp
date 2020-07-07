@@ -34,10 +34,12 @@ ABC[22] = 'w';
 ABC[23] = 'x'; 
 ABC[24] = 'y'; 
 ABC[25] = 'z'; 
-
+   
 //Mesage for encryption
-string message = "gdkkn vnqkc";
-
+cout << "Compleate stirng:" << endl;
+string message;
+getline(cin, message);
+    
 //Libraries to work with txt files
 ofstream myfile;
 fstream file;
